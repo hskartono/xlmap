@@ -1,0 +1,43 @@
+{
+  "FullAssemblyName": "UnitTest.FlatPoco, UnitTest",
+  "WorksheetName": "FlatPocoWorksheet",
+  "FieldConfigs": [
+    {
+      "ColumnIndex": 1,
+      "ColumnTitle": "My Integer Number",
+      "PropertyName": "MyIntegerNumber",
+      "PropertyDataType": "INTEGER"
+    },
+    {
+      "IsForeignKey": true,
+      "ColumnIndex": 2,
+      "ColumnTitle": "My Foreign Key",
+      "PropertyName": "MyForeignKey",
+      "PropertyDataType": "STRING"
+    },
+    {
+      "ColumnIndex": 3,
+      "ColumnTitle": "My String Name",
+      "PropertyName": "MyStringName",
+      "PropertyDataType": "STRING"
+    },
+    {
+      "ColumnIndex": 4,
+      "ColumnTitle": "My Double Price",
+      "PropertyName": "MyDoublePrice",
+      "PropertyDataType": "DOUBLE"
+    },
+    {
+      "ColumnIndex": 5,
+      "ColumnTitle": "My Birth Date",
+      "PropertyName": "MyBirthDate",
+      "PropertyDataType": "DATETIME"
+    },
+    {
+      "ColumnIndex": 6,
+      "ColumnTitle": "My Sign In Date Time",
+      "PropertyName": "MySigninDateTime",
+      "PropertyDataType": "DATETIME"
+    }
+  ]
+}

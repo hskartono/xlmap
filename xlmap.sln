@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xlmap", "xlmap\xlmap.csproj", "{C1E06BB3-BC83-463E-AF78-F9496A426D10}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{936412D2-C8DE-4B5E-B6DE-71915FD8C03F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{38A5209F-5F01-46DF-BF70-D4F019CDB489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{BBB2BBAE-5647-440E-8233-FA75D7221A45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{C1E06BB3-BC83-463E-AF78-F9496A426D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E06BB3-BC83-463E-AF78-F9496A426D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E06BB3-BC83-463E-AF78-F9496A426D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB2BBAE-5647-440E-8233-FA75D7221A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB2BBAE-5647-440E-8233-FA75D7221A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB2BBAE-5647-440E-8233-FA75D7221A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB2BBAE-5647-440E-8233-FA75D7221A45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1E06BB3-BC83-463E-AF78-F9496A426D10} = {936412D2-C8DE-4B5E-B6DE-71915FD8C03F}
+		{BBB2BBAE-5647-440E-8233-FA75D7221A45} = {38A5209F-5F01-46DF-BF70-D4F019CDB489}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5205EBEC-4CDA-4296-827F-4264489778FA}
